@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node /message/index.js",
+    "start": "node ./massage/index.js",
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {},
