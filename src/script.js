@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 function addCar(newCar) {
-    fetch('/cars', {
+    fetch('https://my-api-cars.azurewebsites.net/cars', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -60,7 +60,7 @@ carForm.addEventListener('submit', event => {
 // Function to remove a car
 function removeCar(index) {
     const carId = cars[index].id;
-    fetch(`/cars/${carId}`, {
+    fetch(`https://my-api-cars.azurewebsites.net/cars/${carId}`, {
         method: 'DELETE'
     })
         .then(response => response.json())
