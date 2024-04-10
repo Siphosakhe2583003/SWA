@@ -6,7 +6,7 @@ const port = process.env.PORT || 3001;
 
 app.use(express.json());
 
-const cars = require('/src/cars.json');
+const cars = require('./cars.json');
 
 //get all cars
 app.get('/cars', (req, res) => {
