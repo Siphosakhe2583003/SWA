@@ -1,11 +1,15 @@
 {
-  "name": "api",
+  "name": "sample-api",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./massage/index.js",
-    "test": "echo \"No tests yet...\""
+    "start":"node app.js"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
